@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23"
+
+    //TODO change versionCode i versionName
+    defaultConfig {
+        applicationId "com.slp.rss_api"
+        minSdkVersion 20
+        targetSdkVersion 23
+        versionCode 15
+        versionName "2015.0.15"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    signingConfigs {
+        release {
+            if (project.hasProperty("KEYSTORE_PATH")) {
+                storeFile file(KEYSTORE_PATH)
+                storePassword KEYSTORE_PASSWORD
+                keyAlias KEY_ALIAS
+                keyPassword KEY_PASSWORD
+            }
+            keyAlias 'softlabpro'
+            keyPassword 'softlabpro'
+            storeFile file('softlabpro.jks')
+            storePassword 'softlabpro'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.android.support:wearable:+'
+    compile 'com.google.android.gms:play-services-wearable:+'
+}

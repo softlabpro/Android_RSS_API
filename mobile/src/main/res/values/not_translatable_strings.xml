@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO change about_us_copyright and about_us_content -->
+    <string name="about_us_copyright" translatable="false">Copyright (c) 1995-2015 SoftLabPro</string>
+    <string name="about_us_content" translatable="false"><![CDATA[
+    <b>Community</b><br/>
+    • GitHub - web-based Git repository hosting service.<br/>
+    Go to http://github.com/ for more information.<br/><br/>
+
+    <b>Repository</b><br/>
+    • RSS_API <br/>
+    Go to http://softlabpro.github.io/RSS_API/ for more information.<br/><br/>
+
+    <b>Developers</b><br/>
+    • SoftLabPro<br/>
+    • Ildar Mulyukov<br/>
+    • equiem<br/>
+    • Frédéric Julian<br/>
+    • madx666<br/>
+    • Mikko Huhtala<br/>
+    • RyDroid<br/>
+    • Sergii Pylypenko<br/>
+    • Shapochkin Mihail<br/>
+    • Suyash Bhatt<br/>
+    • Zhaofeng Li<br/><br/>
+
+    <b>Translators</b><br/>
+    • Aitor Beriain<br/>
+    • Benjamin Schütte<br/>
+    • Changwoo Ryu<br/>
+    • chenjia404<br/>
+    • Danilo Treffiletti<br/>
+    • Enric Morales<br/>
+    • Jaroslav Lichtblau<br/>
+    • Jozef Jaroščiak<br/>
+    • Matthias Dill<br/>
+    • Mladen Pejaković<br/>
+    • Djura Brunet<br/><br/>
+
+    This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See http://www.gnu.org/licenses<br/><br/>
+    Some parts of this software are based on - Sparse/Flym GitHub projects, under the MIT license.
+    ]]></string>
+
+    <string-array name="settings_interval_values" translatable="false">
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>21600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+    <string-array name="settings_keep_time_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>7</item>
+        <item>14</item>
+        <item>30</item>
+        <item>61</item>
+        <item>91</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="settings_font_size_values" translatable="false">
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="settings_proxy_types" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="settings_proxy_types_names" translatable="false">
+        <item>HTTP</item>
+        <item>SOCKS</item>
+    </string-array>
+    <string-array name="settings_preload_image_modes_values" translatable="false">
+        <item>NEVER_DISPLAYED</item>
+        <item>WIFI_ONLY_PRELOAD</item>
+        <item>ALWAYS_PRELOAD</item>
+    </string-array>
+
+    <!-- TODO change AdSense banner_Ad_Unit_Id -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3971069366563086/5081209414</string>
+
+    <!-- TODO change AdSense interstitial ad unit ID -->
+   <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-3971069366563086/6557942615</string>
+
+</resources>
