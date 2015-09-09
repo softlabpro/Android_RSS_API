@@ -10,8 +10,8 @@ android {
         applicationId "com.slp.rss_api"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 23
-        versionName "2015.0.23"
+        versionCode 24
+        versionName "2015.0.24"
     }
 
     compileOptions {
